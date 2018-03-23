@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "./node_modules/.bin/jasmine",
+    "j-init": "./node_modules/.bin/jasmine init"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/DariuszLuber/CI_CD_Workshop#readme",
   "dependencies": {
-    "http": "0.0.0"
+    "http": "0.0.0",
+    "jasmine": "^3.1.0"
   }
 }

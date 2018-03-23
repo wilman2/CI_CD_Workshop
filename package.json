@@ -1,0 +1,22 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariuszLuber/CI_CD_Workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DariuszLuber/CI_CD_Workshop/issues"
+  },
+  "homepage": "https://github.com/DariuszLuber/CI_CD_Workshop#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}
